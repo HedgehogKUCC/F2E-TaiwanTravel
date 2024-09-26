@@ -1,5 +1,17 @@
 # TaiwanTravel
 
+## Node Version
+
+14.20.1
+
+## NPM Version
+
+6.14.17
+
+## Yarn Version
+
+1.22.22
+
 ## Build Setup
 
 ```bash
