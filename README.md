@@ -12,6 +12,42 @@
 
 1.22.22
 
+## PM2
+
+https://pm2.keymetrics.io/
+
+```bash
+npm install pm2 -g
+pm2 init
+yarn build
+pm2 start
+
+# 查看服務狀態
+pm2 status
+
+# 查看運行中的服務
+pm2 list
+
+# 查看服務日誌
+pm2 logs
+
+# 重新整理
+pm2 reload <id>
+pm2 reload all
+
+# 重啟服務
+pm2 restart <id>
+pm2 restart all
+
+# 停止服務
+pm2 stop <id>
+pm2 stop all
+
+# 刪除運行中的服務
+pm2 delete <id>
+pm2 delete all
+```
+
 ## Build Setup
 
 ```bash
