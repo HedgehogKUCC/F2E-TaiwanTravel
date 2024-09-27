@@ -38,5 +38,10 @@
     "jest-environment-jsdom": "29.1.2",
     "postcss": "8.4.17",
     "vue-jest": "3.0.4"
+  },
+  "resolutions": {
+    "vue": "2.6.14",
+    "vue-server-renderer": "2.6.14",
+    "vue-template-compiler": "2.6.14"
   }
 }
