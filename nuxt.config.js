@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'TaiwanTravel',
+    title: '台灣旅遊景點導覽',
     htmlAttrs: {
       lang: 'en'
     },
@@ -23,6 +23,8 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    '~/plugins/axios.js',
+    '~/plugins/hello.js'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -56,5 +58,9 @@ export default {
   // Disable prefetching globally: https://v2.nuxt.com/docs/features/nuxt-components
   router: {
     prefetchLinks: false
-  }
+  },
+
+  serverMiddleware: [
+    { path: '/api/error500', handler: '~/server-middleware/error500.js' }
+  ]
 }
