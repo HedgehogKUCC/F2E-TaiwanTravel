@@ -1,9 +1,13 @@
 <template>
   <div>
-    <h1>{{ name }} !!!</h1>
-    <button type="button" class="border px-2 py-3 rounded bg-primary-300 shadow-md hover:bg-primary-500 hover:text-white" @click="triggerError500">
-      Trigger 500 error
-    </button>
+    <section class="bg-home-banner">
+      <div class="py-40 flex justify-center items-center">
+        <div class="relative">
+          <input type="search" class="w-780 h-14 rounded-3xl">
+          <img src="~/assets/images/search.svg" alt="" class="absolute top-1 left-0 px-5 py-3">
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 

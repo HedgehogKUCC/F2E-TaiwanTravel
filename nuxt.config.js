@@ -1,3 +1,5 @@
+import { resolve } from 'path'
+
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -62,5 +64,9 @@ export default {
 
   serverMiddleware: [
     { path: '/api/error500', handler: '~/server-middleware/error500.js' }
-  ]
+  ],
+
+  alias: {
+    images: resolve(__dirname, './assets/images')
+  }
 }

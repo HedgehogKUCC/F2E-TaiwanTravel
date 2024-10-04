@@ -14,6 +14,12 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      width: {
+        780: '780px'
+      },
+      backgroundImage: {
+        'home-banner': 'url("~images/HomeBanner.jpg")'
+      },
       colors: {
         primary: {
           300: '#5B9BD5',
