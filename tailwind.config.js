@@ -25,8 +25,6 @@ module.exports = {
           300: '#F5F4F2',
           500: '#F1EDEA'
         },
-        dark: '#000000',
-        white: '#FFFFFF'
       }
     },
     container: {
