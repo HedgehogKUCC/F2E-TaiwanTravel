@@ -3,10 +3,26 @@
     <div class="container py-4 flex justify-between items-center">
       <img src="~/assets/images/logo.png" alt="">
       <ul class="flex justify-end items-center">
-        <li class="mr-5 text-white">精選活動</li>
-        <li class="mr-5 text-white">全台景點</li>
-        <li class="mr-5 text-white">探索美食</li>
-        <li class="text-white">住宿飯店</li>
+        <li class="mr-5 text-white">
+          <NuxtLink to="/">
+            精選活動
+          </NuxtLink>
+        </li>
+        <li class="mr-5 text-white">
+          <NuxtLink to="/">
+            全台景點
+          </NuxtLink>
+        </li>
+        <li class="mr-5 text-white">
+          <NuxtLink to="/">
+            探索美食
+          </NuxtLink>
+        </li>
+        <li class="text-white">
+          <NuxtLink to="/">
+            住宿飯店
+          </NuxtLink>
+        </li>
       </ul>
     </div>
   </header>
