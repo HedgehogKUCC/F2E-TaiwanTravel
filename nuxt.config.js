@@ -3,7 +3,10 @@ import { resolve } from 'path'
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: '台灣旅遊景點導覽',
+    titleTemplate: (titleChunk) => {
+      // If undefined or blank then we don't need the hyphen
+      return titleChunk ? `${titleChunk} - 台灣旅遊景點導覽` : '台灣旅遊景點導覽'
+    },
     htmlAttrs: {
       lang: 'en'
     },

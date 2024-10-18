@@ -13,18 +13,9 @@
 
 <script>
 export default {
-  // middleware (context) {
-  //   console.log(context, 'middleware')
+  // head: {
+  //   title: '首頁'
   // },
-  asyncData (context) {
-    // console.log(context)
-    return { name: 'Hello World ~~~', title: '首頁 - 台灣旅遊景點導覽' }
-  },
-  head () {
-    return {
-      title: this.title
-    }
-  },
   created () {
     this.$hello('world')
   },
