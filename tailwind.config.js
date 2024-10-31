@@ -15,7 +15,12 @@ module.exports = {
   theme: {
     extend: {
       width: {
-        780: '780px'
+        780: '780px',
+        '9/20': '45%',
+        '12/25': '48%'
+      },
+      height: {
+        22: '90px'
       },
       backgroundImage: {
         'home-banner': 'url("~images/HomeBanner.jpg")'
